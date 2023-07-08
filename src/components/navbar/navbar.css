@@ -1,0 +1,23 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 2em;
+}
+header{
+    position: fixed;
+    width: 100%;
+   top: 0;
+   z-index: 1 ;
+   background-color: rgba(255,255,255,0.7);
+   backdrop-filter: blur(15px);
+}
+
+nav .links{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.links:visited{
+    color: inherit;
+}
